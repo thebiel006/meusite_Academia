@@ -1,0 +1,76 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { 
+  font-family: Arial, sans-serif; 
+  line-height: 2.0; 
+  color: #222222; 
+  background: #f4f4f4; 
+}
+header { 
+  background: #111; 
+  color: #fff; 
+  padding: 10px; 
+  text-align: center; 
+}
+header h1 { margin-bottom: 8px; }
+nav ul { 
+  display: flex; 
+  justify-content: center; 
+  gap: 30px; 
+  list-style: none; 
+}
+nav a { 
+  color: #fff; 
+  text-decoration: none; 
+  font-weight: bold; 
+}
+.hero { 
+  text-align: center; 
+  padding: 100px 90px; 
+  background: url() center/cover; 
+  color: rgb(255, 255, 255); 
+}
+.hero h2 { font-size: 2.5rem; margin-bottom: 15px; }
+.hero p { font-size: 1.2rem; }
+.container { 
+  max-width: 1100px; 
+  margin: auto; 
+  padding: 20px; 
+}
+.section { margin: 40px 0; }
+.section h2 { text-align: center; margin-bottom: 20px; }
+.grid { 
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 20px; 
+}
+.card { 
+  background: rgb(255, 255, 255); 
+  padding: 15px; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+  text-align: center; 
+}
+.card img, .card video { 
+  width: 100%; 
+  border-radius: 12px; 
+  margin-bottom: 10px; 
+}
+footer { 
+  text-align: center; 
+  background: #111; 
+  color: #fff; 
+  padding: 20px; 
+  margin-top: 30px; 
+}
+.imagembanner{
+  width:80% ;
+  height: 80%;
+}
+.bannerpeito{
+  width: 100%;
+  height: 100%;
+}
+.escrita{
+  color: rgba(255, 255, 255, 0.986);
+}
+

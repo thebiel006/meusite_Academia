@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Strong</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/imagem2.jpg" type="image/jpg">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="formulario.html">Formulário</a></li>
+                <li><a href="inferiores.html">Pernas</a></li>
+                <li><a href="peitoral.html">Peitoral</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Formulário de Contato</h1>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <label>Nome: <input type="text" name="nome" required></label><br>
+                <label>Email: <input type="email" name="email" required></label><br>
+                <label>Senha: <input type="password" name="senha" required></label><br>
+                <label>Telefone: <input type="tel" name="telefone"></label><br>
+                <label>Data de Nascimento: <input type="date" name="nascimento"></label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferências de Treino</legend>
+                <label><input type="checkbox" name="modalidade" value="cardio"> Cardio</label>
+                <label><input type="checkbox" name="modalidade" value="musculacao"> Musculação</label>
+                <label><input type="checkbox" name="modalidade" value="funcional"> Funcional</label><br>
+
+                <label>Turno preferido:</label>
+                <label><input type="radio" name="turno" value="manha"> Manhã</label>
+                <label><input type="radio" name="turno" value="tarde"> Tarde</label>
+                <label><input type="radio" name="turno" value="noite"> Noite</label><br>
+
+                <label>Objetivo principal:
+                    <select name="objetivo">
+                        <option>Emagrecimento</option>
+                        <option>Hipertrofia</option>
+                        <option>Resistência</option>
+                        <option>Qualidade de vida</option>
+                    </select>
+                </label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Mais informações</legend>
+                <label>Peso: <input type="number" name="peso" step="0.1"></label><br>
+                <label>Altura: <input type="number" name="altura" step="0.01"></label><br>
+                <label>Cor favorita: <input type="color" name="cor"></label><br>
+                <label>Arquivo de exame médico: <input type="file" name="exame"></label><br>
+                <label>Comentários: <textarea name="comentarios"></textarea></label><br>
+            </fieldset>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <div>
+            <p>&copy; 2025 Strong. Todos os direitos reservados.</p>
+        </div>
+        <div class="icones">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
